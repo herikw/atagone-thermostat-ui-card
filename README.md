@@ -1,6 +1,8 @@
 # AtagOne Thermostat UI Card
 
-Custom Lovelace card that mirrors the look-and-feel of the AtagOne thermostat. It shows current/target temperatures, heating and summer indicators, error feedback, and offers quick preset selection including an inline holiday scheduler. Built with Lit and tailored for the AtagOne Home Assistant integration.
+Custom Lovelace card that mirrors the look-and-feel of the AtagOne thermostat.
+It shows current/target temperatures, heating and summer indicators, error feedback, and offers quick preset selection including an inline holiday scheduler. 
+Built with Lit and tailored for my AtagOne Home Assistant integration.
 
 ## Screenshots
 ![AtagOne thermostat UI - main view](screenshots/AtagOne%201.png)
@@ -21,7 +23,7 @@ Custom Lovelace card that mirrors the look-and-feel of the AtagOne thermostat. I
 - Localization-ready (translations included for multiple languages)
 
 ## Requirements
-- Home Assistant with the AtagOne integration providing a `climate` entity
+- Home Assistant with my AtagOne integration providing a `climate` entity
 - Services used by the card:
   - `climate.set_temperature`, `climate.set_hvac_mode`, `climate.set_preset_mode`
   - `atagone_thermostat.set_temp_target_temperature` / `atagone_thermostat.restore_saved_target_temperature` (eco helper)
