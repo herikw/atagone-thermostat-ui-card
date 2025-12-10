@@ -2,6 +2,15 @@
 
 Custom Lovelace card that mirrors the look-and-feel of the AtagOne thermostat. It shows current/target temperatures, heating and summer indicators, error feedback, and offers quick preset selection including an inline holiday scheduler. Built with Lit and tailored for the AtagOne Home Assistant integration.
 
+## Screenshots
+![AtagOne thermostat UI - main view](screenshots/AtagOne%201.png)
+![AtagOne thermostat UI - presets](screenshots/AtagOne%202.png)
+![AtagOne thermostat UI - holiday scheduler](screenshots/AtagOne%203.png)
+![AtagOne thermostat UI - manual mode](screenshots/AtagOne%204.png)
+![AtagOne thermostat UI - eco/summer indicators](screenshots/AtagOne%205.png)
+![AtagOne thermostat UI - heating state](screenshots/AtagOne%206.png)
+![AtagOne thermostat UI - error display](screenshots/AtagOne%207.png)
+
 ## Features
 - Modern black AtagOne-inspired UI with current vs. target temperature emphasis
 - Manual/Auto/Fireplace/Holiday presets with expandable bottom bar
