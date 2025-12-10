@@ -1,0 +1,36 @@
+{
+  "common": {
+    "version": "versijas",
+    "current": "pašreizējais",
+    "current_humidity": "Pašreizējais mitrums",
+    "current_temperature": "Pašreizējā temperatūra",
+    "target_temperature": "Mērķa temperatūra"
+  },
+  "editor": {
+    "card": {
+      "climate": {
+        "disable_window": "Atspējot logu indikatoru",
+        "disable_summer": "Atspējot vasaras režīmu",
+        "disable_eco": "Atspējot ekonomisko režīmu",
+        "disable_heat": "Atspējot sildīšanas režīmu",
+        "disable_off": "Atspējot izslēgšanu",
+        "disable_menu": "Atspējot izvēlni",
+        "disable_battery_warning": "Atspējot baterijas brīdinājumu",
+        "disable_buttons": "Atspējot plus/mīnus pogas",
+        "eco_temperature": "Eko režīma temperatūra",
+        "set_current_as_main": "Apmainīt pašreizējo un mērķa temperatūru vietām"
+      }
+    }
+  },
+  "extra_states": {
+    "window_open": "Logs atvērts",
+    "window_closed": "Logs aizvērts",
+    "night_mode": "Nakts režīms",
+    "eco": "Eko režīms",
+    "summer": "Vasaras režīms",
+    "cooling": "Dzesēšana",
+    "heating": "Apkure",
+    "cooling_off": "Dzesēšana izslēgta",
+    "heating_off": "Apkure izslēgta"
+  }
+}

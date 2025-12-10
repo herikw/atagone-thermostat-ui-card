@@ -1,0 +1,36 @@
+{
+  "common": {
+    "version": "verzia",
+    "current": "aktuálny",
+    "current_humidity": "Aktuálna vlhkosť",
+    "current_temperature": "Aktuálna teplota",
+    "target_temperature": "Cieľová teplota"
+  },
+  "editor": {
+    "card": {
+      "climate": {
+        "disable_window": "Zakázať okno",
+        "disable_summer": "Zakázať leto",
+        "disable_eco": "Zakázať eco",
+        "disable_heat": "Zakázať kúrenie",
+        "disable_off": "Vypnúť",
+        "disable_menu": "Zakázať menu",
+        "disable_battery_warning": "Zakázať upozornenie na batériu",
+        "disable_buttons": "Zakázať plus/mínus tlačidlá",
+        "eco_temperature": "Eco teplota",
+        "set_current_as_main": "Vymeňte cieľ za miesta s aktuálnou teplotou"
+      }
+    }
+  },
+  "extra_states": {
+    "window_open": "Okno otvorené",
+    "window_closed": "Okno zatvorené",
+    "night_mode": "Nočný mód",
+    "eco": "Eco",
+    "summer": "Leto",
+    "cooling": "Chladenie",
+    "heating": "Kúrenie",
+    "cooling_off": "Chladenie vypnuté",
+    "heating_off": "Kúrenie vypnuté"
+  }
+}

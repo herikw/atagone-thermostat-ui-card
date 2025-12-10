@@ -1,0 +1,55 @@
+{
+  "name": "atagone-thermostat-ui-card",
+  "version": "2.2.0",
+  "description": "Lovelace atagone-thermostat-ui",
+  "keywords": [
+    "home-assistant",
+    "homeassistant",
+    "hass",
+    "automation",
+    "lovelace",
+    "custom-cards",
+    "atagone-thermostat",
+    "atagone_thermostat"
+  ],
+  "module": "atagone-thermostat-ui-card.js",
+  "repository": "https://github.com/herikw/atagone-thermostat-ui-card",
+  "author": "Wim van den Herik",
+  "type": "module",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "build": "rollup -c",
+    "format": "prettier --write .",
+    "start:hass": "docker run --rm -p8123:8123 -v ${PWD}/.hass_dev:/config homeassistant/home-assistant:beta",
+    "start:hass-cmd": "docker run --rm -p8123:8123 -v  %cd%/.hass_dev:/config homeassistant/home-assistant:beta"
+  },
+  "dependencies": {
+    "@egjs/hammerjs": "^2.0.17",
+    "@mdi/js": "^7.3.67",
+    "home-assistant-js-websocket": "^9.1.0",
+    "lit": "^3.0.2",
+    "memoize-one": "^6.0.0",
+    "superstruct": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@lit-labs/rollup-plugin-minify-html-literals": "^0.1.0",
+    "@material/mwc-ripple": "^0.27.0",
+    "@rollup/plugin-babel": "6.0.4",
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-json": "6.0.1",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.8.10",
+    "prettier": "^3.0.3",
+    "rollup": "4.2.0",
+    "rollup-plugin-import-css": "^3.3.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "typescript": "^5.2.2"
+  },
+  "volta": {
+    "node": "18.20.4"
+  }
+}

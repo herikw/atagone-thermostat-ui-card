@@ -1,0 +1,53 @@
+{
+  "common": {
+    "version": "version",
+    "current": "current"
+  },
+  "editor": {
+    "card": {
+      "climate": {
+        "disable_window": "Turn off the window open indicator",
+        "disable_summer": "Turn off the summer indicator",
+        "disable_eco": "Turn off the eco button",
+        "disable_heat": "Turn off the on/heat button",
+        "disable_off": "Turn off the off button",
+        "disable_menu": "Disable menu",
+        "disable_battery_warning": "Turn off the battery warning",
+        "disable_buttons": "Turn off the plus/minus buttons",
+        "eco_temperature": "Target temp for night/away/eco mode triggerd by ui button",
+        "set_current_as_main": "Swap target with current temperature places"
+      }
+    }
+  },
+  "extra_states": {
+    "window_open": "Window open",
+    "night_mode": "Night mode",
+    "eco": "Eco",
+    "summer": "Summer",
+    "cooling": "Cooling",
+    "heating": "Heating",
+    "cooling_off": "Cooling off",
+    "heating_off": "Heating off"
+  },
+  "bottom": {
+    "change_function": "Change function",
+    "automatic": "Automatic",
+    "holiday": "Holiday",
+    "extend": "Extend",
+    "fireplace": "Fireplace",
+    "manual": "Manual"
+  },
+  "top": {
+    "current_temperature": "Current temperature",
+    "target_temperature": "Target temperature"
+  },
+  "holiday": {
+    "submit": "SET",
+    "cancel": "CANCEL",
+    "clear": "CLEAR",
+    "depart": "Departure",
+    "return": "Return",
+    "datetime": "(date & time)",
+    "note": "Note: In holiday mode the DHW mode will be set to ECO"
+  }
+}
